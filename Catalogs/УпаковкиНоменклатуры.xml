@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9.1">
+	<Catalog uuid="85c42c29-3ef1-47ee-b64a-5eabd3f9bab2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.УпаковкиНоменклатуры" category="Object">
+				<xr:TypeId>9dc31691-b1f3-4dc0-b279-f587ef05bd48</xr:TypeId>
+				<xr:ValueId>bd3a4994-0b84-4123-af75-df8713248548</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.УпаковкиНоменклатуры" category="Ref">
+				<xr:TypeId>5dc388f0-194f-4d62-ba6b-d34c37699599</xr:TypeId>
+				<xr:ValueId>d438725f-d739-4c9e-b70e-557a43a0d993</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.УпаковкиНоменклатуры" category="Selection">
+				<xr:TypeId>e625e1f5-2839-4a0a-a129-291f977118fa</xr:TypeId>
+				<xr:ValueId>605b76e6-7db1-43cb-a261-5f9fc28b51c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.УпаковкиНоменклатуры" category="List">
+				<xr:TypeId>eeb4405f-bb7b-4d41-8379-63144060767a</xr:TypeId>
+				<xr:ValueId>6a798d30-bae6-4a13-b339-f399988c7838</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.УпаковкиНоменклатуры" category="Manager">
+				<xr:TypeId>41542d8c-6c57-41e1-a46f-0e762250c9b2</xr:TypeId>
+				<xr:ValueId>3e13a92f-8835-48e8-bc36-e17f886d18d8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УпаковкиНоменклатуры</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d2055284-d52d-42a7-9722-1b59fb7904bf</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
