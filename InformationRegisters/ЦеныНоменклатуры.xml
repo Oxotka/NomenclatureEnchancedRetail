@@ -57,6 +57,22 @@
 					</Type>
 				</Properties>
 			</Resource>
+			<Resource uuid="580cc93c-60a4-4ea0-a5b4-7d00ccd1c504">
+				<InternalInfo/>
+				<Properties>
+					<Name>Валюта</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>27341698-2bf0-4f0b-b223-0740bb5c3c4d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
 			<Dimension uuid="9f9a06c7-6b8b-4401-81bb-c0bc5076f0fb">
 				<InternalInfo/>
 				<Properties>

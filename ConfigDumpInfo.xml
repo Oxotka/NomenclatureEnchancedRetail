@@ -27,7 +27,7 @@
 			<Metadata name="Catalog.Номенклатура.Attribute.Марка" id="fa57ff97-bd16-4129-97e6-cee2ed4f90ec"/>
 		</Metadata>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка" id="647a5eb5-3693-4067-9607-9e68d0569dd8" configVersion="17ddbd826ae38845cf15400b3a190b4ea3f944c6"/>
-		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="647a5eb5-3693-4067-9607-9e68d0569dd8.0" configVersion="f088f2b6a83851f15f8940e1da19fb0341eb14a8"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="647a5eb5-3693-4067-9607-9e68d0569dd8.0" configVersion="cae3e2a2895baf7e7ced3ad56bb48345e25c5486"/>
 		<Metadata name="Catalog.НоменклатураПрисоединенныеФайлы" id="eaf6817c-a8dc-41e8-8ad0-86ac3bbb15d8" configVersion="709c2f3ce2f901dd798484936729d69b9aa11442"/>
 		<Metadata name="Catalog.Склады" id="dfa3c52b-3ed1-48b8-9988-6daa3166c2c1" configVersion="5dcaf3fe7bb21c8b80f0efe0acfb36e3aeb49adb"/>
 		<Metadata name="Catalog.ТоварныеКатегории" id="c7b74f48-7899-435e-a2f6-afad422a3f2c" configVersion="234df1e1385aea1b21ab734ed64fdeea428b20a7"/>
@@ -55,7 +55,8 @@
 			<Metadata name="InformationRegister.СоответствиеНоменклатурыРаботаСНоменклатурой.Dimension.Номенклатура" id="c3d4745a-80d0-4ee5-8f64-6510420a8d7e"/>
 			<Metadata name="InformationRegister.СоответствиеНоменклатурыРаботаСНоменклатурой.Resource.ИдентификаторНоменклатурыСервиса" id="cc719e7b-51ea-4757-a3a3-c0ca9f86242b"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ЦеныНоменклатуры" id="f1b4d9c2-2f4c-4c19-876f-ee692faf84d5" configVersion="e8bdf868084859bf009670e942da9473ed7b65d0">
+		<Metadata name="InformationRegister.ЦеныНоменклатуры" id="f1b4d9c2-2f4c-4c19-876f-ee692faf84d5" configVersion="9cf4be1490eab0e0ec18b949891b7b987920726d">
+			<Metadata name="InformationRegister.ЦеныНоменклатуры.Resource.Валюта" id="580cc93c-60a4-4ea0-a5b4-7d00ccd1c504"/>
 			<Metadata name="InformationRegister.ЦеныНоменклатуры.Dimension.ВидЦены" id="9f9a06c7-6b8b-4401-81bb-c0bc5076f0fb"/>
 			<Metadata name="InformationRegister.ЦеныНоменклатуры.Dimension.Характеристика" id="a8da1993-26c0-4cf7-96d5-8372d24e12ad"/>
 			<Metadata name="InformationRegister.ЦеныНоменклатуры.Resource.Цена" id="f666ca27-684e-4c69-9404-0db060905039"/>
