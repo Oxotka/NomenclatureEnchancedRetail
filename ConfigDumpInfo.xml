@@ -27,14 +27,15 @@
 			<Metadata name="Catalog.Номенклатура.Attribute.Марка" id="fa57ff97-bd16-4129-97e6-cee2ed4f90ec"/>
 		</Metadata>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка" id="647a5eb5-3693-4067-9607-9e68d0569dd8" configVersion="17ddbd826ae38845cf15400b3a190b4ea3f944c6"/>
-		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="647a5eb5-3693-4067-9607-9e68d0569dd8.0" configVersion="396c6bbf984174fa5982327784c18fbf59dd0bf2"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="647a5eb5-3693-4067-9607-9e68d0569dd8.0" configVersion="f088f2b6a83851f15f8940e1da19fb0341eb14a8"/>
 		<Metadata name="Catalog.НоменклатураПрисоединенныеФайлы" id="eaf6817c-a8dc-41e8-8ad0-86ac3bbb15d8" configVersion="709c2f3ce2f901dd798484936729d69b9aa11442"/>
 		<Metadata name="Catalog.Склады" id="dfa3c52b-3ed1-48b8-9988-6daa3166c2c1" configVersion="5dcaf3fe7bb21c8b80f0efe0acfb36e3aeb49adb"/>
 		<Metadata name="Catalog.ТоварныеКатегории" id="c7b74f48-7899-435e-a2f6-afad422a3f2c" configVersion="234df1e1385aea1b21ab734ed64fdeea428b20a7"/>
 		<Metadata name="Catalog.УпаковкиНоменклатуры" id="85c42c29-3ef1-47ee-b64a-5eabd3f9bab2" configVersion="79dbde072f25ad8d7461178fef003c21eef1ae00"/>
+		<Metadata name="Catalog.ХарактеристикиНоменклатуры" id="07a6f6ea-9ef5-4951-8f4c-e05051828b71" configVersion="382429d3046a6d4d4ad65bcc6f903409a21d5554"/>
 		<Metadata name="CommonPicture.ЗаполнитьПоШаблону" id="7702fc4e-9d80-492a-ace3-945d4123dcac" configVersion="b9d4a1514aacae3f7cac4a8e0b36a62ce9429f1d"/>
 		<Metadata name="CommonPicture.Номенклатура" id="a8ea05fa-2b76-4a43-ba36-516355a574fe" configVersion="50753983f44aa5df42bf2ff7a2624052f47fbc57"/>
-		<Metadata name="Configuration.НоменклатураИКорзина" id="e74cf7ed-1458-4f46-ba91-a1c28aae0bbf" configVersion="ffcb15a6e13bbd483107cc8ae88a699fbfa1a0f8"/>
+		<Metadata name="Configuration.НоменклатураИКорзина" id="e74cf7ed-1458-4f46-ba91-a1c28aae0bbf" configVersion="3760971dc12f7481bc4fd8505f4435c6408b5691"/>
 		<Metadata name="DefinedType.НоменклатураРаботаСНоменклатурой" id="c247e22e-41d1-4a7f-8998-11dfd88eea8e" configVersion="3142d040b4d6bc7d462e5b969409f126a3e37eac"/>
 		<Metadata name="DefinedType.ХарактеристикаРаботаСНоменклатурой" id="436bce6d-c19a-4804-b84f-a25e06798be3" configVersion="47cc072a2b26bbaeb873c8483a57cbb9829b1971"/>
 		<Metadata name="Enum.ВариантыВеденияДополнительныхДанныхПоНоменклатуре" id="b3ac7064-26ad-40e7-a6f2-b52e67a8c5bf" configVersion="d8c140740084176154ed73f80740a03e11cb1565">
@@ -53,6 +54,12 @@
 			<Metadata name="InformationRegister.СоответствиеНоменклатурыРаботаСНоменклатурой.Resource.РежимЗагрузкиХарактеристик" id="a5967db7-ce4d-4626-a71e-ffc0e7d1d932"/>
 			<Metadata name="InformationRegister.СоответствиеНоменклатурыРаботаСНоменклатурой.Dimension.Номенклатура" id="c3d4745a-80d0-4ee5-8f64-6510420a8d7e"/>
 			<Metadata name="InformationRegister.СоответствиеНоменклатурыРаботаСНоменклатурой.Resource.ИдентификаторНоменклатурыСервиса" id="cc719e7b-51ea-4757-a3a3-c0ca9f86242b"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЦеныНоменклатуры" id="f1b4d9c2-2f4c-4c19-876f-ee692faf84d5" configVersion="e8bdf868084859bf009670e942da9473ed7b65d0">
+			<Metadata name="InformationRegister.ЦеныНоменклатуры.Dimension.ВидЦены" id="9f9a06c7-6b8b-4401-81bb-c0bc5076f0fb"/>
+			<Metadata name="InformationRegister.ЦеныНоменклатуры.Dimension.Характеристика" id="a8da1993-26c0-4cf7-96d5-8372d24e12ad"/>
+			<Metadata name="InformationRegister.ЦеныНоменклатуры.Resource.Цена" id="f666ca27-684e-4c69-9404-0db060905039"/>
+			<Metadata name="InformationRegister.ЦеныНоменклатуры.Dimension.Номенклатура" id="ff55faad-3774-43ec-bbc9-e866ef0b0298"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="311fa09b-23c7-45b0-aa60-d79de2baff3a" configVersion="083c906a563fa2b56fa55c32bb8532161942b4f2"/>
 	</ConfigVersions>

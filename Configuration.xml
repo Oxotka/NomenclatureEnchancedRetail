@@ -39,7 +39,7 @@
 			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
-			<NamePrefix>Корзина_</NamePrefix>
+			<NamePrefix>Номенклатура_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_14</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
@@ -65,12 +65,14 @@
 			<Catalog>ВидыЦен</Catalog>
 			<Catalog>НоменклатураПрисоединенныеФайлы</Catalog>
 			<Catalog>УпаковкиНоменклатуры</Catalog>
+			<Catalog>ХарактеристикиНоменклатуры</Catalog>
 			<Enum>ТипыНоменклатуры</Enum>
 			<Enum>ВариантыВеденияДополнительныхДанныхПоНоменклатуре</Enum>
 			<Enum>СтавкиНДС</Enum>
 			<Enum>РежимыЗагрузкиХарактеристикРаботаСНоменклатурой</Enum>
 			<Enum>СтатусыСопоставленияРаботаСНоменклатурой</Enum>
 			<InformationRegister>СоответствиеНоменклатурыРаботаСНоменклатурой</InformationRegister>
+			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
