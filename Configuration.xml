@@ -56,6 +56,9 @@
 			<CommonPicture>ЗаполнитьПоШаблону</CommonPicture>
 			<DefinedType>НоменклатураРаботаСНоменклатурой</DefinedType>
 			<DefinedType>ХарактеристикаРаботаСНоменклатурой</DefinedType>
+			<CommonForm>ФормаКорзина</CommonForm>
+			<CommonForm>ФормаВыбораХарактеристики</CommonForm>
+			<CommonForm>ФормаКоличествоУпаковок</CommonForm>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>БазовыеЕдиницыИзмерения</Catalog>

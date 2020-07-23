@@ -36,8 +36,6 @@
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>e8311c36-254f-4de6-84e9-ac3913076a84</ExtendedConfigurationObject>
-			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
-			<WriteMode>RecorderSubordinate</WriteMode>
 		</Properties>
 		<ChildObjects>
 			<Resource uuid="f666ca27-684e-4c69-9404-0db060905039">
@@ -46,15 +44,6 @@
 					<Name>Цена</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>e02c297e-bbea-4d6b-a40c-7d0944a3de35</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
-							<v8:FractionDigits>2</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
 				</Properties>
 			</Resource>
 			<Resource uuid="580cc93c-60a4-4ea0-a5b4-7d00ccd1c504">
@@ -63,14 +52,6 @@
 					<Name>Валюта</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>27341698-2bf0-4f0b-b223-0740bb5c3c4d</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
 				</Properties>
 			</Resource>
 			<Dimension uuid="9f9a06c7-6b8b-4401-81bb-c0bc5076f0fb">
@@ -79,10 +60,6 @@
 					<Name>ВидЦены</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>29a0e493-fa27-4ad0-9b93-5402b04881a9</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>cfg:CatalogRef.ВидыЦен</v8:Type>
-					</Type>
 				</Properties>
 			</Dimension>
 			<Dimension uuid="ff55faad-3774-43ec-bbc9-e866ef0b0298">
@@ -91,10 +68,6 @@
 					<Name>Номенклатура</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>d3505f25-60f9-4306-a951-9e7cc2784f32</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
-					</Type>
 				</Properties>
 			</Dimension>
 			<Dimension uuid="a8da1993-26c0-4cf7-96d5-8372d24e12ad">
@@ -103,10 +76,6 @@
 					<Name>Характеристика</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>a6c61e4c-f3e9-457a-8331-d65829be4c7e</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
-					</Type>
 				</Properties>
 			</Dimension>
 		</ChildObjects>

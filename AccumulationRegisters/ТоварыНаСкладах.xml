@@ -41,15 +41,6 @@
 					<Name>Количество</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>110458a9-ed38-4d36-a925-ce10e9937d7e</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
-							<v8:FractionDigits>3</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
 				</Properties>
 			</Resource>
 			<Resource uuid="af6c167b-575d-4927-8ad5-8dddba1ac14a">
@@ -58,15 +49,6 @@
 					<Name>Резерв</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>bdacb163-f3bf-4799-b34a-672273d040c4</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
-							<v8:FractionDigits>3</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
 				</Properties>
 			</Resource>
 			<Dimension uuid="5f4e06da-4792-4046-8422-edeedf3ad132">
@@ -75,10 +57,6 @@
 					<Name>Склад</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>359dcc32-6733-4100-9c31-777ad6d72fbc</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
-					</Type>
 				</Properties>
 			</Dimension>
 			<Dimension uuid="fd3f913c-1daf-4022-abc7-2954411b307b">
@@ -87,10 +65,6 @@
 					<Name>Номенклатура</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>dfbc5692-47f7-4c4e-a49f-4d84fdf727b0</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
-					</Type>
 				</Properties>
 			</Dimension>
 		</ChildObjects>

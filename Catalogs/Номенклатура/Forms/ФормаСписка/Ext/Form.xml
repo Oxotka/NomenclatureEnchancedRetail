@@ -335,6 +335,7 @@
 								<LabelField name="ВНаличии" id="103">
 									<DataPath>Список.ВНаличии</DataPath>
 									<TitleLocation>Right</TitleLocation>
+									<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
 									<Width>10</Width>
 									<ContextMenu name="ВНаличииКонтекстноеМеню" id="104"/>
 									<ExtendedTooltip name="ВНаличииРасширеннаяПодсказка" id="105"/>
@@ -342,6 +343,7 @@
 								<LabelField name="СвободныйОстаток" id="224">
 									<DataPath>Список.СвободныйОстаток</DataPath>
 									<TitleLocation>Right</TitleLocation>
+									<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
 									<Width>16</Width>
 									<Format>
 										<v8:item>
@@ -355,6 +357,7 @@
 								<LabelField name="Цена" id="227">
 									<DataPath>Список.Цена</DataPath>
 									<TitleLocation>Right</TitleLocation>
+									<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -448,21 +451,27 @@
 								<InputField name="ИнформацияПоСкладамВНаличии" id="248">
 									<DataPath>ИнформацияПоСкладам.ВНаличии</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<Width>10</Width>
+									<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
+									<Width>11</Width>
+									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ИнформацияПоСкладамВНаличииКонтекстноеМеню" id="249"/>
 									<ExtendedTooltip name="ИнформацияПоСкладамВНаличииРасширеннаяПодсказка" id="250"/>
 								</InputField>
 								<InputField name="ИнформацияПоСкладамСвободныйОстаток" id="251">
 									<DataPath>ИнформацияПоСкладам.СвободныйОстаток</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
 									<Width>12</Width>
+									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ИнформацияПоСкладамСвободныйОстатокКонтекстноеМеню" id="252"/>
 									<ExtendedTooltip name="ИнформацияПоСкладамСвободныйОстатокРасширеннаяПодсказка" id="253"/>
 								</InputField>
 								<InputField name="ИнформацияПоСкладамВРезерве" id="263">
 									<DataPath>ИнформацияПоСкладам.ВРезерве</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
 									<Width>10</Width>
+									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="ИнформацияПоСкладамВРезервеКонтекстноеМеню" id="264"/>
 									<ExtendedTooltip name="ИнформацияПоСкладамВРезервеРасширеннаяПодсказка" id="265"/>
 								</InputField>
@@ -532,6 +541,7 @@
 									<DataPath>ИнформацияПоЦенам.Цена</DataPath>
 									<TitleLocation>Right</TitleLocation>
 									<EditMode>EnterOnInput</EditMode>
+									<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
 									<ContextMenu name="ИнформацияПоЦенамЦенаКонтекстноеМеню" id="286"/>
 									<ExtendedTooltip name="ИнформацияПоЦенамЦенаРасширеннаяПодсказка" id="287"/>
 								</InputField>
@@ -1874,6 +1884,17 @@
 					</Type>
 				</Column>
 			</Columns>
+		</Attribute>
+		<Attribute name="ДокументОткрытый" id="1000019">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ открытый</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeSet>cfg:DocumentRef</v8:TypeSet>
+			</Type>
 		</Attribute>
 		<ConditionalAppearance>
 			<dcsset:item>
