@@ -130,8 +130,19 @@
 								<Event name="StartChoice">КорзинаХарактеристикаНачалоВыбора</Event>
 							</Events>
 						</InputField>
+						<InputField name="КорзинаКоличество" id="1007">
+							<DataPath>Корзина.Количество</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
+							<ContextMenu name="КорзинаКоличествоКонтекстноеМеню" id="1008"/>
+							<ExtendedTooltip name="КорзинаКоличествоРасширеннаяПодсказка" id="1009"/>
+							<Events>
+								<Event name="OnChange">КорзинаКоличествоПриИзменении</Event>
+							</Events>
+						</InputField>
 						<InputField name="КорзинаЦена" id="309">
 							<DataPath>Корзина.Цена</DataPath>
+							<Visible>false</Visible>
 							<EditMode>EnterOnInput</EditMode>
 							<Width>12</Width>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -155,9 +166,9 @@
 						</InputField>
 						<InputField name="КорзинаСумма" id="956">
 							<DataPath>Корзина.Сумма</DataPath>
-							<Visible>false</Visible>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
 							<ContextMenu name="КорзинаСуммаКонтекстноеМеню" id="957"/>
 							<ExtendedTooltip name="КорзинаСуммаРасширеннаяПодсказка" id="958"/>
 						</InputField>

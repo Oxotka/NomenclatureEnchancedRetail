@@ -67,6 +67,18 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</Dimension>
+			<Dimension uuid="7eb74f86-0ffd-466e-bf7f-e7536e26f431">
+				<InternalInfo/>
+				<Properties>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8c5a84e6-8941-423f-a05d-3b16f54b8b35</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
 		</ChildObjects>
 	</AccumulationRegister>
 </MetaDataObject>
