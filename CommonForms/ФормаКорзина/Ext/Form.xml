@@ -279,7 +279,7 @@
 									<ChildItems>
 										<Button name="СоздатьЗаказКлиента" id="990">
 											<Type>CommandBarButton</Type>
-											<CommandName>Form.Command.СоздатьЗаказКлиента</CommandName>
+											<CommandName>Form.Command.СоздатьЗаказПокупателя</CommandName>
 											<ExtendedTooltip name="СоздатьЗаказКлиентаРасширеннаяПодсказка" id="991"/>
 										</Button>
 										<Button name="СоздатьРеализацияТоваровУслуг" id="978">
@@ -682,20 +682,14 @@
 			<Action>СоздатьПоступлениеТоваровУслуг</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьЗаказКлиента" id="1">
+		<Command name="СоздатьЗаказПокупателя" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Заказ клиента</v8:content>
+					<v8:content>Заказ покупателя</v8:content>
 				</v8:item>
 			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Создать заказ клиента</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>СоздатьЗаказКлиента</Action>
+			<Action>СоздатьЗаказПокупателя</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьЗаказПоставщику" id="3">

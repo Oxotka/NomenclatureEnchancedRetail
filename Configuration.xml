@@ -52,8 +52,17 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<StyleItem>ЦветТекстаОтмененнойСтрокиДокумента</StyleItem>
+			<StyleItem>ЦветНепроведенногоДокумента</StyleItem>
+			<StyleItem>ЦветПроведенногоДокумента</StyleItem>
+			<StyleItem>ИтогиФонГруппы</StyleItem>
 			<CommonPicture>Номенклатура</CommonPicture>
 			<CommonPicture>ЗаполнитьПоШаблону</CommonPicture>
+			<CommonPicture>СерииНоменклатурыКолонкаСтатусов</CommonPicture>
+			<CommonPicture>СтатусыДокумента</CommonPicture>
+			<CommonPicture>СтатусыУказанияСерий</CommonPicture>
+			<CommonPicture>Подарок</CommonPicture>
+			<CommonPicture>МенюДополнительныеФункции</CommonPicture>
 			<DefinedType>НоменклатураРаботаСНоменклатурой</DefinedType>
 			<DefinedType>ХарактеристикаРаботаСНоменклатурой</DefinedType>
 			<CommonForm>ФормаКорзина</CommonForm>
@@ -69,6 +78,7 @@
 			<Catalog>НоменклатураПрисоединенныеФайлы</Catalog>
 			<Catalog>УпаковкиНоменклатуры</Catalog>
 			<Catalog>ХарактеристикиНоменклатуры</Catalog>
+			<Document>ЗаказПокупателя</Document>
 			<Enum>ТипыНоменклатуры</Enum>
 			<Enum>ВариантыВеденияДополнительныхДанныхПоНоменклатуре</Enum>
 			<Enum>СтавкиНДС</Enum>
