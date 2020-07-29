@@ -36,10 +36,6 @@
 					<Name>ИспользованиеХарактеристик</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>09332f18-8b7a-49f7-8b1a-6ad346a38391</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>cfg:EnumRef.ВариантыВеденияДополнительныхДанныхПоНоменклатуре</v8:Type>
-					</Type>
 				</Properties>
 			</Attribute>
 		</ChildObjects>

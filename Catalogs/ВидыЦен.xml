@@ -36,14 +36,6 @@
 					<Name>ВалютаЦены</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>90a47852-2a28-4d29-b220-e722493cb901</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
 				</Properties>
 			</Attribute>
 		</ChildObjects>

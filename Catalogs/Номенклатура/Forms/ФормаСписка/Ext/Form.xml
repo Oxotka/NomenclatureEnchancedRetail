@@ -748,10 +748,41 @@
 																					</ToolTip>
 																					<ExtendedTooltip name="ПодменюОформить1РасширеннаяПодсказка" id="132"/>
 																					<ChildItems>
-																						<Button name="ОформитьЗаказПокупателя1" id="298">
+																						<ButtonGroup name="ГруппаПродажа1" id="318">
+																							<Title>
+																								<v8:item>
+																									<v8:lang>ru</v8:lang>
+																									<v8:content>Продажа</v8:content>
+																								</v8:item>
+																							</Title>
+																							<ExtendedTooltip name="ГруппаПродажа1РасширеннаяПодсказка" id="319"/>
+																							<ChildItems>
+																								<Button name="ОформитьЗаказПокупателя1" id="298">
+																									<Type>CommandBarButton</Type>
+																									<CommandName>Form.Command.ОформитьЗаказПокупателя</CommandName>
+																									<ExtendedTooltip name="ОформитьЗаказПокупателя1РасширеннаяПодсказка" id="299"/>
+																								</Button>
+																								<Button name="ОформитьРеализацияТоваров1" id="308">
+																									<Type>CommandBarButton</Type>
+																									<CommandName>Form.Command.ОформитьРеализацияТоваров</CommandName>
+																									<ExtendedTooltip name="ОформитьРеализацияТоваров1РасширеннаяПодсказка" id="309"/>
+																								</Button>
+																								<Button name="ОформитьЧекККМ1" id="316">
+																									<Type>CommandBarButton</Type>
+																									<CommandName>Form.Command.ОформитьЧекККМ</CommandName>
+																									<ExtendedTooltip name="ОформитьЧекККМ1РасширеннаяПодсказка" id="317"/>
+																								</Button>
+																							</ChildItems>
+																						</ButtonGroup>
+																						<Button name="ОформитьЗаказПоставщику1" id="304">
 																							<Type>CommandBarButton</Type>
-																							<CommandName>Form.Command.ОформитьЗаказПокупателя</CommandName>
-																							<ExtendedTooltip name="ОформитьЗаказПокупателя1РасширеннаяПодсказка" id="299"/>
+																							<CommandName>Form.Command.ОформитьЗаказПоставщику</CommandName>
+																							<ExtendedTooltip name="ОформитьЗаказПоставщику1РасширеннаяПодсказка" id="305"/>
+																						</Button>
+																						<Button name="ОформитьПоступлениеТоваров1" id="312">
+																							<Type>CommandBarButton</Type>
+																							<CommandName>Form.Command.ОформитьПоступлениеТоваров</CommandName>
+																							<ExtendedTooltip name="ОформитьПоступлениеТоваров1РасширеннаяПодсказка" id="313"/>
 																						</Button>
 																					</ChildItems>
 																				</Popup>
@@ -892,10 +923,41 @@
 																					</ToolTip>
 																					<ExtendedTooltip name="ПодменюОформитьРасширеннаяПодсказка" id="175"/>
 																					<ChildItems>
-																						<Button name="ОформитьЗаказПокупателя" id="300">
+																						<ButtonGroup name="ГруппаПродажа" id="320">
+																							<Title>
+																								<v8:item>
+																									<v8:lang>ru</v8:lang>
+																									<v8:content>Продажа</v8:content>
+																								</v8:item>
+																							</Title>
+																							<ExtendedTooltip name="ГруппаПродажаРасширеннаяПодсказка" id="321"/>
+																							<ChildItems>
+																								<Button name="ОформитьЗаказПокупателя" id="300">
+																									<Type>CommandBarButton</Type>
+																									<CommandName>Form.Command.ОформитьЗаказПокупателя</CommandName>
+																									<ExtendedTooltip name="ОформитьЗаказПокупателяРасширеннаяПодсказка" id="301"/>
+																								</Button>
+																								<Button name="ОформитьРеализацияТоваров" id="306">
+																									<Type>CommandBarButton</Type>
+																									<CommandName>Form.Command.ОформитьРеализацияТоваров</CommandName>
+																									<ExtendedTooltip name="ОформитьРеализацияТоваровРасширеннаяПодсказка" id="307"/>
+																								</Button>
+																								<Button name="ОформитьЧекККМ" id="314">
+																									<Type>CommandBarButton</Type>
+																									<CommandName>Form.Command.ОформитьЧекККМ</CommandName>
+																									<ExtendedTooltip name="ОформитьЧекККМРасширеннаяПодсказка" id="315"/>
+																								</Button>
+																							</ChildItems>
+																						</ButtonGroup>
+																						<Button name="ОформитьЗаказПоставщику" id="302">
 																							<Type>CommandBarButton</Type>
-																							<CommandName>Form.Command.ОформитьЗаказПокупателя</CommandName>
-																							<ExtendedTooltip name="ОформитьЗаказПокупателяРасширеннаяПодсказка" id="301"/>
+																							<CommandName>Form.Command.ОформитьЗаказПоставщику</CommandName>
+																							<ExtendedTooltip name="ОформитьЗаказПоставщикуРасширеннаяПодсказка" id="303"/>
+																						</Button>
+																						<Button name="ОформитьПоступлениеТоваров" id="310">
+																							<Type>CommandBarButton</Type>
+																							<CommandName>Form.Command.ОформитьПоступлениеТоваров</CommandName>
+																							<ExtendedTooltip name="ОформитьПоступлениеТоваровРасширеннаяПодсказка" id="311"/>
 																						</Button>
 																					</ChildItems>
 																				</Popup>
@@ -1948,6 +2010,42 @@
 				</v8:item>
 			</Title>
 			<Action callType="After">Номенклатура_ОформитьЗаказПокупателяПосле</Action>
+		</Command>
+		<Command name="ОформитьЗаказПоставщику" id="1000003">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ поставщику</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="After">Номенклатура_ОформитьЗаказПоставщикуПосле</Action>
+		</Command>
+		<Command name="ОформитьРеализацияТоваров" id="1000004">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реализация товаров</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="After">Номенклатура_ОформитьРеализацияТоваровПосле</Action>
+		</Command>
+		<Command name="ОформитьПоступлениеТоваров" id="1000005">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поступление товаров</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="After">Номенклатура_ОформитьПоступлениеТоваровПосле</Action>
+		</Command>
+		<Command name="ОформитьЧекККМ" id="1000006">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чек ККМ</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="After">Номенклатура_ОформитьЧекККМПосле</Action>
 		</Command>
 	</Commands>
 	<BaseForm version="2.9.1">

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9.1">
+	<Enum uuid="f162d71f-75fd-461a-9c09-4f858093220d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ХозяйственныеОперации" category="Ref">
+				<xr:TypeId>77016dba-8010-4d80-927e-1ef37140dd86</xr:TypeId>
+				<xr:ValueId>9f85b8b0-f6fc-4dd1-a4c5-937bb7714916</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ХозяйственныеОперации" category="Manager">
+				<xr:TypeId>7356615d-3612-464b-b4aa-f1c34b3c5505</xr:TypeId>
+				<xr:ValueId>7cd11127-d7d3-4476-8c08-d0375752ec15</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ХозяйственныеОперации" category="List">
+				<xr:TypeId>f283b0e7-c9c8-444a-bba6-70ba1aa9c8a4</xr:TypeId>
+				<xr:ValueId>ae54fa0e-eb7e-4f22-81e8-a33340042ab5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ХозяйственныеОперации</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>deead3fa-ab5d-4010-899e-8e65d1165d33</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="de9751d1-95cc-4e86-b650-75c44bd2d844">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВозвратОтПокупателя</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>96f0a12e-4539-4f15-9ed8-04b36a459875</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

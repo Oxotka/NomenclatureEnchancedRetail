@@ -46,14 +46,6 @@
 					<Name>ИдентификаторНоменклатурыСервиса</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>940d1bf0-478c-4575-8ce8-28b4265ff3e7</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>36</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
 				</Properties>
 			</Resource>
 			<Resource uuid="428967ce-c6e7-44ef-9eee-bbe6c9f8e3e6">
@@ -62,10 +54,6 @@
 					<Name>СтатусСопоставления</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>8d773fdb-f3d9-4a6a-8ea6-c4f36a643176</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>cfg:EnumRef.СтатусыСопоставленияРаботаСНоменклатурой</v8:Type>
-					</Type>
 				</Properties>
 			</Resource>
 			<Resource uuid="a5967db7-ce4d-4626-a71e-ffc0e7d1d932">
@@ -74,10 +62,6 @@
 					<Name>РежимЗагрузкиХарактеристик</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>3203deb6-e288-4619-be16-de9fe30c5115</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>cfg:EnumRef.РежимыЗагрузкиХарактеристикРаботаСНоменклатурой</v8:Type>
-					</Type>
 				</Properties>
 			</Resource>
 			<Resource uuid="2fcf846d-007e-49be-98fb-50f63fa10a61">
@@ -86,10 +70,6 @@
 					<Name>ОбновляетсяАвтоматически</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>5cffd982-030c-49d4-a5f0-c011ab0a4db0</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>xs:boolean</v8:Type>
-					</Type>
 				</Properties>
 			</Resource>
 			<Attribute uuid="36c22fbb-cbd2-4bdb-aa38-b491afbcdcc8">
@@ -98,14 +78,6 @@
 					<Name>ПредставлениеНоменклатурыСервиса</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>c536bdbc-baad-479e-a724-dbe73065f96e</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>1024</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="872b13fb-6dce-4ea0-8c05-d7655e8c4b57">
@@ -114,15 +86,6 @@
 					<Name>КоличествоВариантов</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>0ffb98b1-9739-44f4-9c68-082350dfd210</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>3</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
 				</Properties>
 			</Attribute>
 			<Dimension uuid="c3d4745a-80d0-4ee5-8f64-6510420a8d7e">
@@ -131,10 +94,6 @@
 					<Name>Номенклатура</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>5333046d-211d-4c31-b736-60e939d66e1c</ExtendedConfigurationObject>
-					<Type>
-						<v8:TypeSet>cfg:DefinedType.НоменклатураРаботаСНоменклатурой</v8:TypeSet>
-					</Type>
 				</Properties>
 			</Dimension>
 			<Dimension uuid="47f48d05-47bf-4e88-9833-5b45b0e9a92d">
@@ -143,10 +102,6 @@
 					<Name>Характеристика</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>42d6c4a2-062d-4011-94f5-785603af7c78</ExtendedConfigurationObject>
-					<Type>
-						<v8:TypeSet>cfg:DefinedType.ХарактеристикаРаботаСНоменклатурой</v8:TypeSet>
-					</Type>
 				</Properties>
 			</Dimension>
 		</ChildObjects>

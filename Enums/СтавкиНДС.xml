@@ -21,6 +21,43 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>c6f40ea3-2b30-4651-9eb4-f4ad5b1f1b3f</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<EnumValue uuid="741d0751-0c27-4ed9-9db5-560c71d56a3a">
+				<InternalInfo/>
+				<Properties>
+					<Name>НДС18</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8ab98fd8-943a-451a-98e5-973d4b7617e8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="52014e9c-1420-403c-9292-98dc47cab231">
+				<InternalInfo/>
+				<Properties>
+					<Name>НДС20</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>78cdba6f-7037-417b-96fc-83a04a3f0a19</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5aac7afe-bbe5-4294-88aa-a7ce91bc996e">
+				<InternalInfo/>
+				<Properties>
+					<Name>НДС10</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a7bb516a-7b94-4d9e-b07a-6f4cfdfe3815</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4d80f253-f74c-489d-b40a-213c8f659739">
+				<InternalInfo/>
+				<Properties>
+					<Name>БезНДС</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>25bf695c-5870-49ae-9d97-a31073964a64</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
 	</Enum>
 </MetaDataObject>

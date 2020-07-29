@@ -284,7 +284,7 @@
 										</Button>
 										<Button name="СоздатьРеализацияТоваровУслуг" id="978">
 											<Type>CommandBarButton</Type>
-											<CommandName>Form.Command.СоздатьРеализацияТоваровУслуг</CommandName>
+											<CommandName>Form.Command.СоздатьРеализацияТоваров</CommandName>
 											<ExtendedTooltip name="СоздатьРеализацияТоваровУслугРасширеннаяПодсказка" id="979"/>
 										</Button>
 										<Button name="СоздатьЧекККМ" id="1001">
@@ -310,7 +310,7 @@
 										</Button>
 										<Button name="СоздатьПоступлениеТоваровУслуг" id="982">
 											<Type>CommandBarButton</Type>
-											<CommandName>Form.Command.СоздатьПоступлениеТоваровУслуг</CommandName>
+											<CommandName>Form.Command.СоздатьПоступлениеТоваров</CommandName>
 											<ExtendedTooltip name="СоздатьПоступлениеТоваровУслугРасширеннаяПодсказка" id="983"/>
 										</Button>
 									</ChildItems>
@@ -323,23 +323,6 @@
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ПодменюПеремещениеРасширеннаяПодсказка" id="998"/>
-									<ChildItems>
-										<Button name="СоздатьЗаказНаПеремещение" id="1003">
-											<Type>CommandBarButton</Type>
-											<CommandName>Form.Command.СоздатьЗаказНаПеремещение</CommandName>
-											<ExtendedTooltip name="СоздатьЗаказНаПеремещениеРасширеннаяПодсказка" id="1004"/>
-										</Button>
-										<Button name="СоздатьОрдерНаПеремещениеТоваров" id="1005">
-											<Type>CommandBarButton</Type>
-											<CommandName>Form.Command.СоздатьОрдерНаПеремещениеТоваров</CommandName>
-											<ExtendedTooltip name="СоздатьОрдерНаПеремещениеТоваровРасширеннаяПодсказка" id="1006"/>
-										</Button>
-										<Button name="СоздатьПеремещениеТоваров" id="999">
-											<Type>CommandBarButton</Type>
-											<CommandName>Form.Command.СоздатьПеремещениеТоваров</CommandName>
-											<ExtendedTooltip name="СоздатьПеремещениеТоваровРасширеннаяПодсказка" id="1000"/>
-										</Button>
-									</ChildItems>
 								</ButtonGroup>
 							</ChildItems>
 						</Popup>
@@ -662,23 +645,29 @@
 			<Action>ПродолжитьПодбор</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьРеализацияТоваровУслуг" id="2">
+		<Command name="СоздатьРеализацияТоваров" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Реализация (акт, накладная)</v8:content>
+					<v8:content>Реализация товаров</v8:content>
 				</v8:item>
 			</Title>
 			<Action>СоздатьРеализацияТоваровУслуг</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьПоступлениеТоваровУслуг" id="4">
+		<Command name="СоздатьПоступлениеТоваров" id="4">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Приобретение товаров и услуг</v8:content>
+					<v8:content>Поступление товаров</v8:content>
 				</v8:item>
 			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать поступление товаров</v8:content>
+				</v8:item>
+			</ToolTip>
 			<Action>СоздатьПоступлениеТоваровУслуг</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
@@ -708,16 +697,6 @@
 			<Action>СоздатьЗаказПоставщику</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьПеремещениеТоваров" id="7">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Перемещение товаров</v8:content>
-				</v8:item>
-			</Title>
-			<Action>СоздатьПеремещениеТоваров</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
 		<Command name="СоздатьЧекККМ" id="8">
 			<Title>
 				<v8:item>
@@ -726,26 +705,6 @@
 				</v8:item>
 			</Title>
 			<Action>СоздатьЧекККМ</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
-		<Command name="СоздатьЗаказНаПеремещение" id="9">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Заказ на перемещение</v8:content>
-				</v8:item>
-			</Title>
-			<Action>СоздатьЗаказНаПеремещение</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
-		<Command name="СоздатьОрдерНаПеремещениеТоваров" id="10">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Ордер на перемещение товаров</v8:content>
-				</v8:item>
-			</Title>
-			<Action>СоздатьОрдерНаПеремещениеТоваров</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>

@@ -43,7 +43,7 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_14</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>mrXoxot</Vendor>
-			<Version>0.5</Version>
+			<Version>0.9</Version>
 			<BriefInformation/>
 			<DetailedInformation/>
 			<Copyright/>
@@ -56,6 +56,10 @@
 			<StyleItem>ЦветНепроведенногоДокумента</StyleItem>
 			<StyleItem>ЦветПроведенногоДокумента</StyleItem>
 			<StyleItem>ИтогиФонГруппы</StyleItem>
+			<StyleItem>ИзмененноеЗначениеРеквизитаЦвет</StyleItem>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<StyleItem>ТекстЗапрещеннойЯчейкиЦвет</StyleItem>
+			<StyleItem>ФонУправляющегоПоля</StyleItem>
 			<CommonPicture>Номенклатура</CommonPicture>
 			<CommonPicture>ЗаполнитьПоШаблону</CommonPicture>
 			<CommonPicture>СерииНоменклатурыКолонкаСтатусов</CommonPicture>
@@ -63,6 +67,15 @@
 			<CommonPicture>СтатусыУказанияСерий</CommonPicture>
 			<CommonPicture>Подарок</CommonPicture>
 			<CommonPicture>МенюДополнительныеФункции</CommonPicture>
+			<CommonPicture>ПросроченаПоставка</CommonPicture>
+			<CommonPicture>ПросроченаОплата</CommonPicture>
+			<CommonPicture>СтатусыСерийИПодарочныхСертификатов</CommonPicture>
+			<CommonPicture>Перейти</CommonPicture>
+			<CommonPicture>РассчитатьЦены</CommonPicture>
+			<CommonPicture>ПодключаемоеОборудованиеЭквайринговыйТерминал16</CommonPicture>
+			<CommonPicture>Наличные</CommonPicture>
+			<CommonPicture>АннулироватьЗаявкуГосИС</CommonPicture>
+			<CommonPicture>ВосклицательныйЗнакНапоминание</CommonPicture>
 			<DefinedType>НоменклатураРаботаСНоменклатурой</DefinedType>
 			<DefinedType>ХарактеристикаРаботаСНоменклатурой</DefinedType>
 			<CommonForm>ФормаКорзина</CommonForm>
@@ -78,12 +91,19 @@
 			<Catalog>НоменклатураПрисоединенныеФайлы</Catalog>
 			<Catalog>УпаковкиНоменклатуры</Catalog>
 			<Catalog>ХарактеристикиНоменклатуры</Catalog>
+			<Catalog>КассыККМ</Catalog>
 			<Document>ЗаказПокупателя</Document>
+			<Document>ЗаказПоставщику</Document>
+			<Document>РеализацияТоваров</Document>
+			<Document>ПоступлениеТоваров</Document>
+			<Document>ЧекККМ</Document>
 			<Enum>ТипыНоменклатуры</Enum>
 			<Enum>ВариантыВеденияДополнительныхДанныхПоНоменклатуре</Enum>
 			<Enum>СтавкиНДС</Enum>
 			<Enum>РежимыЗагрузкиХарактеристикРаботаСНоменклатурой</Enum>
 			<Enum>СтатусыСопоставленияРаботаСНоменклатурой</Enum>
+			<Enum>ФормыОплаты</Enum>
+			<Enum>ХозяйственныеОперации</Enum>
 			<InformationRegister>СоответствиеНоменклатурыРаботаСНоменклатурой</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>

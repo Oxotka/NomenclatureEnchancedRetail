@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9.1">
+	<Document uuid="43282d6e-d394-4304-afb4-72aecbfe7176">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЧекККМ" category="Object">
+				<xr:TypeId>d7e5f049-2c10-4a0c-a85a-0db54cae1d2d</xr:TypeId>
+				<xr:ValueId>d38e720a-2ca2-4aa0-9da1-e0333677b4cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЧекККМ" category="Ref">
+				<xr:TypeId>e6312653-af0e-4a66-a236-2aca8f2cd157</xr:TypeId>
+				<xr:ValueId>0aae905e-a293-44c1-ab39-806577f36e84</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЧекККМ" category="Selection">
+				<xr:TypeId>0dc04767-9cb7-4f2a-b72f-02aa0847e305</xr:TypeId>
+				<xr:ValueId>017959a8-d2c9-4d6b-8c3a-74087df03f80</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЧекККМ" category="List">
+				<xr:TypeId>c3dd0d9a-fe55-43e8-994c-f7420cdf0af6</xr:TypeId>
+				<xr:ValueId>31bdebc7-26c1-439a-8200-8ae7c9e2932d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЧекККМ" category="Manager">
+				<xr:TypeId>69f6994f-8436-4e07-91e2-615174aabab2</xr:TypeId>
+				<xr:ValueId>bbf1961c-16c3-43f2-bf72-c5aedfdaafae</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЧекККМ</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>b4c9e631-8fc8-455e-8eb2-a18c8a1d1621</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

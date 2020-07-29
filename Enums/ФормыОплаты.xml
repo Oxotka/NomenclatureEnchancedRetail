@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9.1">
+	<Enum uuid="67b90d0d-8be3-4200-884e-dacc15b85a6d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ФормыОплаты" category="Ref">
+				<xr:TypeId>52cd9b85-55e4-4942-9e9e-806495ef0bfe</xr:TypeId>
+				<xr:ValueId>b5d1e1f1-40b0-4449-ba29-87f10e8599d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ФормыОплаты" category="Manager">
+				<xr:TypeId>999324d9-995b-4640-b19b-ec623bb78341</xr:TypeId>
+				<xr:ValueId>3ba17e75-fa36-4764-9b48-80095328a101</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ФормыОплаты" category="List">
+				<xr:TypeId>6668a507-6eb7-4509-90be-4a5515ccfdf9</xr:TypeId>
+				<xr:ValueId>a13787a2-5ade-41d8-a191-f3c2565bdc0c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФормыОплаты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>8cd09e10-4636-4941-882a-e1d11a583f37</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1ae5a48b-8306-40ff-b42f-7b2bf886acc7">
+				<InternalInfo/>
+				<Properties>
+					<Name>Наличная</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d450cea1-6bc0-427b-b3f6-68344c8dba57</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="82a9537a-d6ee-47d5-9c3f-b32d121a1378">
+				<InternalInfo/>
+				<Properties>
+					<Name>Безналичная</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d1e84b1a-e266-4a41-b553-0d030e40bc26</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fbd9f4a6-2802-4c59-9468-596d5f5a892f">
+				<InternalInfo/>
+				<Properties>
+					<Name>Взаимозачет</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>88f25b87-200b-4e08-930c-ce6a365ee22a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
