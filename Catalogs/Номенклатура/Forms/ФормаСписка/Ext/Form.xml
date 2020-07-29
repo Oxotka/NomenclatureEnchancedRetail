@@ -36,6 +36,7 @@
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
 	<Events>
+		<Event name="NotificationProcessing" callType="After">Номенклатура_ОбработкаОповещенияПосле</Event>
 		<Event name="BeforeClose" callType="After">Номенклатура_ПередЗакрытиемПосле</Event>
 		<Event name="OnCreateAtServer" callType="After">Номенклатура_ПриСозданииНаСервереПосле</Event>
 	</Events>
