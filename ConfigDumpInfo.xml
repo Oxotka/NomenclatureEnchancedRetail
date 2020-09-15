@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.9.1">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.10">
 	<ConfigVersions>
 		<Metadata name="AccumulationRegister.ТоварыНаСкладах" id="e14c9c18-cc05-4240-be9c-a3991cdab85b" configVersion="ee5ba24e9f61181f8346b43434baa03ace9767ac">
 			<Metadata name="AccumulationRegister.ТоварыНаСкладах.Dimension.Склад" id="5f4e06da-4792-4046-8422-edeedf3ad132"/>
@@ -29,7 +29,7 @@
 			<Metadata name="Catalog.Номенклатура.Attribute.Марка" id="fa57ff97-bd16-4129-97e6-cee2ed4f90ec"/>
 		</Metadata>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка" id="647a5eb5-3693-4067-9607-9e68d0569dd8" configVersion="17ddbd826ae38845cf15400b3a190b4ea3f944c6"/>
-		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="647a5eb5-3693-4067-9607-9e68d0569dd8.0" configVersion="39ab4f9304ce240164edd27b989996ebd92a3390"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="647a5eb5-3693-4067-9607-9e68d0569dd8.0" configVersion="51eaa3f4886283e7fe7ea00465b865db74c0839f"/>
 		<Metadata name="Catalog.НоменклатураПрисоединенныеФайлы" id="eaf6817c-a8dc-41e8-8ad0-86ac3bbb15d8" configVersion="709c2f3ce2f901dd798484936729d69b9aa11442"/>
 		<Metadata name="Catalog.Склады" id="dfa3c52b-3ed1-48b8-9988-6daa3166c2c1" configVersion="5dcaf3fe7bb21c8b80f0efe0acfb36e3aeb49adb"/>
 		<Metadata name="Catalog.ТоварныеКатегории" id="c7b74f48-7899-435e-a2f6-afad422a3f2c" configVersion="234df1e1385aea1b21ab734ed64fdeea428b20a7"/>
@@ -40,7 +40,7 @@
 		<Metadata name="CommonForm.ФормаКоличествоУпаковок" id="f95c0eb8-5c27-41e7-9116-62d9a8a61214" configVersion="2b525a429fd30fa35d7012505cec4c5e754aafb4"/>
 		<Metadata name="CommonForm.ФормаКоличествоУпаковок.Form" id="f95c0eb8-5c27-41e7-9116-62d9a8a61214.0" configVersion="525263193c5deb9989b75a9b66a67bea60d962b0"/>
 		<Metadata name="CommonForm.ФормаКорзина" id="1bfa4c94-ec52-4179-8f06-9dadc6d37e5b" configVersion="54a958860edf952322e45e8f492feccd3ee3729d"/>
-		<Metadata name="CommonForm.ФормаКорзина.Form" id="1bfa4c94-ec52-4179-8f06-9dadc6d37e5b.0" configVersion="b4854353ce46a493be2df3a8021fcf0031cc49c9"/>
+		<Metadata name="CommonForm.ФормаКорзина.Form" id="1bfa4c94-ec52-4179-8f06-9dadc6d37e5b.0" configVersion="d49cf3df86fb0526eefbee9b088f78065d85768d"/>
 		<Metadata name="CommonPicture.АннулироватьЗаявкуГосИС" id="3a6dd95c-a787-420c-8f05-f40cfba87bee" configVersion="0c97d79764906080749ccd415b3f83cc5efe3b04"/>
 		<Metadata name="CommonPicture.ВосклицательныйЗнакНапоминание" id="ebd1b6bc-a9c3-4de3-91e1-73e0ba78c9e8" configVersion="3cca23d49632238696881871bbd2bca7a28e68ad"/>
 		<Metadata name="CommonPicture.ЗаполнитьПоШаблону" id="7702fc4e-9d80-492a-ace3-945d4123dcac" configVersion="d293b5fafce40bca860dff467523cc6edc688713"/>
@@ -57,7 +57,7 @@
 		<Metadata name="CommonPicture.СтатусыДокумента" id="79d5ce85-78ba-4c0c-ac4b-d43f6bb4b881" configVersion="17fbcdd326e251379eff2dc18b60379e12ef8e40"/>
 		<Metadata name="CommonPicture.СтатусыСерийИПодарочныхСертификатов" id="77910f6a-bc27-4fe9-bb44-cbdc85eb796d" configVersion="df1b50891ecd5079c6450689d5e7849a7d2a34e1"/>
 		<Metadata name="CommonPicture.СтатусыУказанияСерий" id="48e35963-3c40-49e5-94da-de675eb2c2c3" configVersion="b364fbe56530db69c6a7cd9f2963f0c544e8dfd3"/>
-		<Metadata name="Configuration.НоменклатураИКорзина" id="e74cf7ed-1458-4f46-ba91-a1c28aae0bbf" configVersion="4d8716d8697d325503ef27d172632383250fa83f"/>
+		<Metadata name="Configuration.НоменклатураИКорзина" id="e74cf7ed-1458-4f46-ba91-a1c28aae0bbf" configVersion="06d795fb93f757ee34fb735630393672d5803094"/>
 		<Metadata name="DefinedType.НоменклатураРаботаСНоменклатурой" id="c247e22e-41d1-4a7f-8998-11dfd88eea8e" configVersion="3142d040b4d6bc7d462e5b969409f126a3e37eac"/>
 		<Metadata name="DefinedType.ХарактеристикаРаботаСНоменклатурой" id="436bce6d-c19a-4804-b84f-a25e06798be3" configVersion="47cc072a2b26bbaeb873c8483a57cbb9829b1971"/>
 		<Metadata name="Document.ЗаказПокупателя" id="412a4f23-27d3-48d3-91e7-1e1e1b1e7d53" configVersion="499c576d587cbb13f82be319b574380e7d5943e6"/>
