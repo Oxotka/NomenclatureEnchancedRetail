@@ -104,6 +104,9 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаСписка</Form>
+			<Form>ФормаКорзина</Form>
+			<Form>ФормаВыбораХарактеристики</Form>
+			<Form>ФормаКоличествоУпаковок</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

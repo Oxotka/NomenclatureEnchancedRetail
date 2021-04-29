@@ -17,7 +17,7 @@
 		</Metadata>
 		<Metadata name="Catalog.КассыККМ" id="617493e6-9f88-492f-8b8a-c85367e3d602" configVersion="b66cc1a060608c428ff9aa15b8c0b1296eb2ef10"/>
 		<Metadata name="Catalog.Марки" id="60c2ecbe-4997-4740-82ce-5a0d2a191c47" configVersion="098f929eb4a1f8ca7da1dcd944c07a15824a297d"/>
-		<Metadata name="Catalog.Номенклатура" id="e7d6268b-37f2-4eba-a1d8-f331bedcd0c8" configVersion="2fdbb7fd9e4a459c4fe04cb7017e32643783d765">
+		<Metadata name="Catalog.Номенклатура" id="e7d6268b-37f2-4eba-a1d8-f331bedcd0c8" configVersion="927ebd0bb9aa315711a7a73c73fcfd3a4a8794b2">
 			<Metadata name="Catalog.Номенклатура.Attribute.ВидНоменклатуры" id="118127e0-0732-4f51-87d1-22ee08751452"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.ТипНоменклатуры" id="2184e57c-8dc5-4f61-978c-059c6e0ffa8f"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.ТоварнаяКатегория" id="2752a6dc-2ba3-41dc-9bfd-bc0f1386b11b"/>
@@ -28,8 +28,14 @@
 			<Metadata name="Catalog.Номенклатура.Attribute.ЕдиницаИзмерения" id="ac1b0d6c-75e2-43e8-b238-e115cf837077"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.Марка" id="fa57ff97-bd16-4129-97e6-cee2ed4f90ec"/>
 		</Metadata>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаВыбораХарактеристики" id="d6eb24d9-21e3-4604-8b4d-f7ae6e1eaab8" configVersion="90b34a74491f7dab0e3155850e0458f07a93cf84"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаВыбораХарактеристики.Form" id="d6eb24d9-21e3-4604-8b4d-f7ae6e1eaab8.0" configVersion="b9f917d9b141bb07fd17df56b333f319cba7277b"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаКоличествоУпаковок" id="ebd24890-f709-4890-895a-52c2b6768cd9" configVersion="8e1d91845a12026e1907d57e1a8e7b0930bf0efb"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаКоличествоУпаковок.Form" id="ebd24890-f709-4890-895a-52c2b6768cd9.0" configVersion="897ea815dc53087b5e36276d14af1709221538b7"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаКорзина" id="654fa55b-e10b-4b3a-85be-57dc7e536abd" configVersion="3bcb3bfe28de28b17aa338f5772284ce543f0c04"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаКорзина.Form" id="654fa55b-e10b-4b3a-85be-57dc7e536abd.0" configVersion="f35e32350619dc74019ba516341e26c9114870fd"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка" id="647a5eb5-3693-4067-9607-9e68d0569dd8" configVersion="17ddbd826ae38845cf15400b3a190b4ea3f944c6"/>
-		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="647a5eb5-3693-4067-9607-9e68d0569dd8.0" configVersion="51eaa3f4886283e7fe7ea00465b865db74c0839f"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="647a5eb5-3693-4067-9607-9e68d0569dd8.0" configVersion="9e99b0fa0c12ebb4192274920f7caa8abe8e5b08"/>
 		<Metadata name="Catalog.НоменклатураПрисоединенныеФайлы" id="eaf6817c-a8dc-41e8-8ad0-86ac3bbb15d8" configVersion="709c2f3ce2f901dd798484936729d69b9aa11442"/>
 		<Metadata name="Catalog.Склады" id="dfa3c52b-3ed1-48b8-9988-6daa3166c2c1" configVersion="5dcaf3fe7bb21c8b80f0efe0acfb36e3aeb49adb"/>
 		<Metadata name="Catalog.ТоварныеКатегории" id="c7b74f48-7899-435e-a2f6-afad422a3f2c" configVersion="234df1e1385aea1b21ab734ed64fdeea428b20a7"/>
